@@ -22,7 +22,7 @@ input_dir = "s3://rose-ab-nyc-data-csv/AB_NYC_2019.csv"
 output_dir = "s3://rose-transformed-data"
 
 # Read data into a DynamicFrame using the Data Catalog metadata
-# medicare_dyf = glueContext.create_dynamic_frame.from_catalog(database = db_name, table_name = tbl_name)
+# bnb_dyf = glueContext.create_dynamic_frame.from_catalog(database = db_name, table_name = tbl_name)
 
 # OR read from s3
 bnb_df = glueContext.read.format(

@@ -19,6 +19,7 @@ setuptools.setup(
     packages=setuptools.find_packages(where="workshop"),
 
     install_requires=[
+        "aws-cdk.aws_glue",
         "aws-cdk.core",
         "aws-cdk.aws_iam",
         "aws-cdk.aws_sqs",

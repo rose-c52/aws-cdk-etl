@@ -1,0 +1,4 @@
+.env
+cdk.out
+workshop/workshop.egg-info
+workshop/__pycache__
